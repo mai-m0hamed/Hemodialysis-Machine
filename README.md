@@ -1,4 +1,4 @@
-# Pump Control and Sensor Monitoring Readme
+# Hemodialysis Machine
 
 ## Description
 This Arduino sketch implements a system for controlling pumps and monitoring various sensors. The system includes features such as controlling pump relays, monitoring temperature, detecting air in the fluid line, and measuring flow rates using sensors.
@@ -31,14 +31,4 @@ This Arduino sketch implements a system for controlling pumps and monitoring var
 2. Pump operation is controlled based on specified time intervals.
 3. If the temperature falls below a threshold, the buzzer is activated to alert the user.
 4. The IR sensor detects air in the fluid line and triggers an LED indicator.
-
-## Circuit Diagram
-![pump Diagram](pump.png)
-![sensor Diagram](sensor.png)
-
-## Dependencies
-- Arduino IDE
-- DHT library
-- SoftwareSerial library (if required)
-
 
